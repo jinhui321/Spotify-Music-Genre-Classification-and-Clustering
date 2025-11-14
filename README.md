@@ -84,12 +84,12 @@ Below is the required table format (left = EDA images, right = findings).
 
   ![Model Preview](Assets/rapidminer_process.png) 
 
-### **Supervised Learning (Genre Classification)**
+### 1️⃣ **Supervised Learning (Genre Classification)**
 
 * **Random Forest Classifier**
 * **Gradient Boosted Trees**
 
-### **Unsupervised Learning (Clustering)**
+### 2️⃣ **Unsupervised Learning (Clustering)**
 
 * **K-Means Clustering**
 * **Gaussian Mixture Model (GMM)**
@@ -114,7 +114,7 @@ These methods help identify genre patterns, evaluate similarity across songs, an
 
 ### 💻 **Supervised Learning: Genre Classification**
 
-**Performance Comparison:**
+🔍 **Performance Comparison:**
 
 | Metric                  | Random Forest  | Gradient Boosted Trees |
 | ----------------------- | -------------- | ---------------------- |
@@ -122,13 +122,13 @@ These methods help identify genre patterns, evaluate similarity across songs, an
 | Weighted Mean Recall    | 26.29% ± 0.34% | 31.84% ± 0.55%         |
 | Weighted Mean Precision | 45.09% ± 2.83% | 41.58% ± 1.13%         |
 
-**Key Insights:**
+💡 **Key Insights:**
 
 * Both models achieved moderate accuracy, with Gradient Boosted Trees slightly outperforming Random Forest.
 * Low recall indicates that many tracks were misclassified, while moderate precision shows the models correctly predicted genres when confident.
 * Model performance is limited by feature dominance (e.g., loudness and energy) and overlapping genre characteristics.
 
-**Recommendations for Improvement:**
+📌 **Recommendations for Improvement:**
 
 1. **Dataset Level**
 
@@ -150,20 +150,20 @@ These methods help identify genre patterns, evaluate similarity across songs, an
 
 ### 💻 **Unsupervised Learning: Song Clustering**
 
-**Evaluation Scores:**
+🔍 **Evaluation Scores:**
 
 | Algorithm | Silhouette Score | Davies-Bouldin Index | Calinski-Harabasz Index |
 | --------- | ---------------- | -------------------- | ----------------------- |
 | K-Means   | 0.142            | 1.984                | 16121.716               |
 | GMM       | 0.149            | 1.499                | 10939.075               |
 
-**Key Insights:**
+💡 **Key Insights:**
 
 * Both clustering methods captured some structure in the data, with GMM slightly outperforming K-Means in Silhouette and Davies-Bouldin metrics.
 * High number of genres and overlapping characteristics make clusters less clearly separated.
 * Clusters may reflect similarity in audio features rather than strict genre boundaries.
 
-**Recommendations for Improvement:**
+📌 **Recommendations for Improvement:**
 
 1. **Dimensionality Reduction**
 
