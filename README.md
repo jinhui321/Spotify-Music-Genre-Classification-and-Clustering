@@ -37,6 +37,20 @@ This project follows the **CRISP-DM** lifecycle:
 
 ---
 
+## 🧰 **Prerequisites**
+
+Before running this project, ensure you have:
+
+<a href="https://docs.rapidminer.com/latest/studio/installation/index.html#from-rapidminer" target="_blank">
+  <img src="https://marproda1static.blob.core.windows.net/icons-prod/web_icon_AIStudio.png" alt="Rapid Miner" width="45" align="left" style="margin-right:10px;" />
+</a>
+
+**[RapidMiner Altair Studio](https://docs.rapidminer.com/latest/studio/installation/index.html#from-rapidminer)**  
+Required version: *2025.1.0 or newer recommended*
+
+
+---
+
 ## 📂 **Dataset Preparation**
 
 ### **1. Dataset Description**
@@ -50,6 +64,7 @@ The Spotify Tracks dataset from Kaggle contains:
 
 Audio features include:
 *acousticness, danceability, energy, valence, loudness, instrumentalness, tempo, speechiness, duration_ms, etc.*
+> The dataset is in [Dataset](dataset.csv), you can also browse in [Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset)
 
 ---
 
