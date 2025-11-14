@@ -1,5 +1,6 @@
 # 🎵 **Spotify Music Genre Classification and Clustering**
-
+  ![Images Preview](Assets/spotify_background.png)  
+  
 This project focuses on improving music genre classification using machine learning and unsupervised clustering techniques using RapidMiner. Spotify relies on accurate genre labeling for playlist generation, music discovery, and personalized recommendations. However, misclassified tracks are common due to human labeling inconsistencies, leading to irrelevant recommendations and reduced user satisfaction.
 
 To address this, this project uses audio features such as **tempo, energy, danceability, acousticness, and valence** to automatically classify and group songs. Both **supervised** and **unsupervised** approaches are implemented, following the **CRISP-DM** data analytics lifecycle.
@@ -59,11 +60,11 @@ Below is the required table format (left = EDA images, right = findings).
 
 | **EDA Graphs** | **Description**                                                                                                                                      |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| *EDA Image 2*  | **Explicit:** Majority of tracks are **not explicit**, with mode = 1.                                                                                |
-| *EDA Image 4*  | **Energy:** Left-skewed, increasing toward 1. Most songs fall between **0.4–0.9**. Indicates a high number of energetic tracks.                      |
-| *EDA Image 5*  | **Loudness:** Slightly left-skewed, close to normal distribution. Most tracks between **-15 to -5 dB**.                                              |
-| *EDA Image 6*  | **Acousticness :** Strong right-skew. Most songs have low values. Instrumentalness has few mid-range values.                                         |
-| *EDA Image 7*  | **Danceability:** Roughly normal distributions. Most tracks fall in moderate ranges. Very few extremes.                                              |
+| <img src="Assets/explicit.jpg" alt="explicit" width="250"/>  | **Explicit:** Majority of tracks are **not explicit**, with mode = 1.                                                                                |
+| <img src="Assets/energy.jpg" alt="energy" width="250"/>  | **Energy:** Left-skewed, increasing toward 1. Most songs fall between **0.4–0.9**. Indicates a high number of energetic tracks.                      |
+| <img src="Assets/loudness.jpg" alt="loudness" width="250"/>  | **Loudness:** Slightly left-skewed, close to normal distribution. Most tracks between **-15 to -5 dB**.                                              |
+| <img src="Assets/acousticness.jpg" alt="acousticness" width="250"/>  | **Acousticness :** Strong right-skew. Most songs have low values. Instrumentalness has few mid-range values.                                         |
+| <img src="Assets/danceability.jpg" alt="danceability" width="250"/>  | **Danceability:** Roughly normal distributions. Most tracks fall in moderate ranges. Very few extremes.                                              |
 
 ---
 
@@ -80,6 +81,8 @@ Below is the required table format (left = EDA images, right = findings).
 ---
 
 ## 🤖 **Machine Learning Models**
+
+  ![Model Preview](Assets/rapidminer_process.png) 
 
 ### **Supervised Learning (Genre Classification)**
 
